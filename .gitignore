@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache
+/pkg/
+/bin/
+
+# Editor e sistema operacional
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Go modules vendored
+/vendor/
+
+# Test result files
+*.coverprofile
+*.testresult
+
+# SQLite temporary or lock files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Caso use arquivos de dump para teste (apesar de SQLite in-memory)
+*.sqlite
+*.sqlite3
+
+# Exclui arquivos de build temporários usados em SQLite in-memory tests
+tmp/
